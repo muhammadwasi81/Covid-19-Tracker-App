@@ -24,4 +24,4 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://yellow-trade.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  surge ./build covid-19-tracker-app-wasi.surge.sh --token ${{secrets.SURGE_TOKEN}}
